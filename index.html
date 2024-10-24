@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Website</title>
+    <link rel="stylesheet" href="css/index_style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Quotes</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Career</a></li>
+        </ul>
+        <button class="contact-button">Contact us</button>
+    </nav>
+
+    <section id="home" class="section section-1 text-center">
+        <div class="carousel">
+            <div class="carousel-images">
+         
+                <img src="assets/images/picture_2.jpg" alt="Image 2" class="active">
+                <img src="assets/images/picture_3.jpg" alt="Image 3">
+                <img src="assets/images/picture_4.jpg" alt="Image 4">
+                <img src="assets/images/picture_5.jpg" alt="Image 5">
+                <img src="assets/images/picture_6.jpg" alt="Image 6">
+                <img src="assets/images/picture_7.jpg" alt="Image 7">
+                <img src="assets/images/picture_8.jpg" alt="Image 8">
+                <img src="assets/images/picture_9.jpg" alt="Image 9">
+                <img src="assets/images/picture_10.jpg" alt="Image 10">
+            </div>
+            <div class="overlay"></div>
+        </div>
+
+        <div class="container">
+            <img src="assets/images/logo.png" alt="Logo" class="logo">
+            <h1 class="display-4" style="font-size: 4vw; color: #ffff; text-shadow: 1px 1px 2px #000;">Raising a generation <br> of kingdom-minded <br> business leaders</h1>
+        </div>
+    </section>
+
+    <div class="section" id="section2">
+        <h1>Section 2</h1>
+    </div>
+    <div class="section" id="section3">
+        <h1>Section 3</h1>
+    </div>
+
+    <button class="arrow left-arrow" onclick="prevSection()">&#8249;</button>
+    <button class="arrow right-arrow" onclick="nextSection()">&#8250;</button>
+
+    <script src="js/index_script.js"></script>
+</body>
+</html>
